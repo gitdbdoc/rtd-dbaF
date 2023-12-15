@@ -9,5 +9,13 @@ python:
   install:
     - requirements: docs/requirements.txt
 
+#sphinx:
+#  configuration: docs/source/conf.py
+
 sphinx:
   configuration: docs/source/conf.py
+  fail_on_warning: true
+
+formats:
+  - pdf
+  - epub
