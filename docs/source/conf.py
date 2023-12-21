@@ -2,14 +2,18 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'argoPlot-script UserGuide'
+copyright = 'since 2022 by dberlianty'
+author = 'dberlianty'
 
 release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
+
+exclude_patterns = [
+    '**.ipynb_checkpoints',
+]
 
 extensions = [
     'sphinx.ext.duration',
@@ -33,3 +37,20 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+
+#html_theme = 'alabaster'
+#html_theme = 'bizstyle'
+
+#html_static_path = ['_static']
+#html_show_sourcelink = False
+#html_use_index = False
+#html_show_sphinx = False
+
+
+# -- Options for EPUB output
+epub_show_urls = 'footnote'
+
